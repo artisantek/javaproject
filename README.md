@@ -1,2 +1,2 @@
 # Simple Java Project
-This is a demo project that you can use with [Buddy Continuous Deployment](https://buddy.works).
+This commit install new war file from jenkins.
