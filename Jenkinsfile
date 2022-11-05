@@ -4,7 +4,7 @@ pipeline {
       stages {
         stage('git checkout') {
         steps {
-            git https://github.com/testlearnprat/java-example.git
+            git 'https://github.com/testlearnprat/java-example.git'
             }
             }
             stage('build') {
