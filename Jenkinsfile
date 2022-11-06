@@ -4,7 +4,7 @@ pipeline {
       stages {
         stage('git checkout') {
         steps {
-            git branch: 'main', url:'https://github.com/testlearnprat/java-example.git'
+            git branch: 'test', url:'https://github.com/testlearnprat/java-example.git'
             }
             }
             stage('build') {
